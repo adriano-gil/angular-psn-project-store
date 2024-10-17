@@ -1,27 +1,19 @@
-# StoreProject
+# PSN Store Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.10.
+Este é um projeto desenvolvido como parte de um desafio de projeto da **DIO** proposto para recriar a interface da PSN STORE. Ele aprensenta da duas páginas dinâmicas: **Home** e **Content**, com foco na responsividade e na experiência do usuário, contém um dataFake para representar informações retiradas de um banco de dados, com todo o conteúdo na página content sendo dinâmico.
 
-## Development server
+## Sobre o Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Desenvolvido com **Angular 17**, este projeto é só uma demonstração de uma página dinâmica e de aplicação web moderna e responsiva. O layout se adapta a diferentes tamanhos de tela, garantindo uma boa experiência tanto em dispositivos móveis quanto em desktops.
 
-## Code scaffolding
+### Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Home**: Página inicial com uma visão geral dos jogos cadastrados no dataFake.
+- **Content**: Página para visualização de conteúdos detalhados e um vídeo do yt importado dinâmicamente.
+- **Responsividade**: Design que se ajusta perfeitamente a diferentes dispositivos.
 
-## Build
+## Tecnologias Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Angular 17**: Para a construção da interface de usuário dinâmica.
+- **Typescript**: Para a construção da lógica por trás dos componentes.
+- **CSS**: Para estilização e responsividade.
